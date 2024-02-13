@@ -6,15 +6,13 @@ We are a technology company first, but with a major focus on consumer well-being
 
 ## Branding
 
-Headline: A healthy meal delivered to your door, every single day
+Headline:
 
 Brand color: #e67e22
 
 ## Omnifood Website Content
 
 ### Summary
-
-The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs. We have delivered 250,000+ meals last year!
 
 ### Omnifood features
 
