@@ -106,6 +106,7 @@ strong {
   margin-bottom: 4.8rem !important;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -115,6 +116,23 @@ strong {
   border-radius: 9px;
   font-weight: 600;
   transition: all 0.3s;
+
+  /* Only for .bts */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  color: #333;
+  background-color: #fff;
 }
 
 .btn-full:link,
@@ -192,6 +210,12 @@ strong {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+*:focus {
+  outline: none;
+  outline: 2px solid rgba(230, 125, 34, 0.5);
+  outline-offset: 2px;
 }
 
 .link:link,
