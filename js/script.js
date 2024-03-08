@@ -38,7 +38,6 @@ const sectionHeroEl = document.querySelector(".section-hero");
 const obs = new IntersectionObserver(
   (entries) => {
     const ent = entries[0];
-    console.log(ent);
     if (!ent.isIntersecting) {
       document.querySelector("body").classList.add("sticky-nav");
     }
